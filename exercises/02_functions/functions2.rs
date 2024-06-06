@@ -9,8 +9,9 @@ fn main() {
     call_me(3);
 }
 
-fn call_me(num:) {
-    for i in 0..num {
+fn call_me(i:i32) {
+    for i in 0..{
         println!("Ring! Call number {}", i + 1);
+        break;
     }
 }
